@@ -71,8 +71,8 @@ You'll need API keys for:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/smart-walking-stick.git
-   cd smart-walking-stick
+   git clone https://github.com/JJbuc/Smart-Walking-Stick.git
+   cd Smart-Walking-Stick
    ```
 
 2. **Install Dependencies**
