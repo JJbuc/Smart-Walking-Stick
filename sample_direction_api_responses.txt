@@ -1,0 +1,102 @@
+# Sample Direction API response
+
+r = {'geocoded_waypoints': [{'geocoder_status': 'OK',
+   'place_id': 'ChIJQ4sBdsbJ5zsRmY8JBUKa8nU',
+   'types': ['establishment', 'point_of_interest', 'university']},
+  {'geocoder_status': 'OK',
+   'place_id': 'ChIJ2WaHDtLJ5zsRiGhYtxGablE',
+   'types': ['establishment',
+    'point_of_interest',
+    'train_station',
+    'transit_station']}],
+ 'routes': [{'bounds': {'northeast': {'lat': 19.118434, 'lng': 72.8461822},
+    'southwest': {'lat': 19.101486, 'lng': 72.8368996}},
+   'copyrights': 'Map data ©2022',
+   'legs': [{'distance': {'text': '3.2 km', 'value': 3177},
+     'duration': {'text': '12 mins', 'value': 691},
+     'end_address': 'Andheri, Railway Colony, Andheri East, Mumbai, Maharashtra 400053, India',
+     'end_location': {'lat': 19.118434, 'lng': 72.8461822},
+     'start_address': 'No. U, 15, Bhaktivedanta Swami Rd, opp. Cooper Hospital, Navpada, JVPD Scheme, Vile Parle, Mumbai, Maharashtra 400056, India',
+     'start_location': {'lat': 19.1072846, 'lng': 72.836916},
+     'steps': [{'distance': {'text': '0.5 km', 'value': 495},
+       'duration': {'text': '1 min', 'value': 83},
+       'end_location': {'lat': 19.1028324, 'lng': 72.8368996},
+       'html_instructions': 'Head <b>south</b> on <b>Bhaktivedanta Swami Rd</b>/<wbr/><b>Gulmohar Rd</b> toward <b>Indravadan Oza Rd</b>',
+       'polyline': {'points': 'o{rsBw}p{LZ@J?vA?z@?fBA~B?vAAr@?fB@tB@f@?bA@'},
+       'start_location': {'lat': 19.1072846, 'lng': 72.836916},
+       'travel_mode': 'DRIVING'},
+      {'distance': {'text': '0.3 km', 'value': 307},
+       'duration': {'text': '1 min', 'value': 75},
+       'end_location': {'lat': 19.101486, 'lng': 72.83937209999999},
+       'html_instructions': 'Turn <b>left</b> onto <b>Vaikunthlal Mehta Rd</b><div style="font-size:0.9em">Pass by SVKM\'s Mithibai College of Arts Chauhan Institute Of Science And Amrutben Jivanlal College Of Commerce And Economics (on the left)</div>',
+       'maneuver': 'turn-left',
+       'polyline': {'points': 'u_rsBs}p{LTK^U\\[`AmCp@mBV_Aj@sB'},
+       'start_location': {'lat': 19.1028324, 'lng': 72.8368996},
+       'travel_mode': 'DRIVING'},
+      {'distance': {'text': '1.4 km', 'value': 1410},
+       'duration': {'text': '5 mins', 'value': 272},
+       'end_location': {'lat': 19.1138553, 'lng': 72.8419165},
+       'html_instructions': 'Turn <b>left</b> onto <b>SV Rd</b><div style="font-size:0.9em">Pass by Barista (on the left in 1.4&nbsp;km)</div>',
+       'maneuver': 'turn-left',
+       'polyline': {'points': 'iwqsBamq{LoCB}A@sA@wC?g@?WAKA_@G_@GkASe@GYEa@IeAQs@Ma@IuB_@UEo@KYEqCa@MCaAQiAWA?kAWuDu@GA_AQ{AUwBYcAS{@MeAMiAWaAOaB_@c@I'},
+       'start_location': {'lat': 19.101486, 'lng': 72.83937209999999},
+       'travel_mode': 'DRIVING'},
+      {'distance': {'text': '0.2 km', 'value': 223},
+       'duration': {'text': '1 min', 'value': 80},
+       'end_location': {'lat': 19.1128709, 'lng': 72.8437636},
+       'html_instructions': 'Turn <b>right</b> after Wow Momo (on the left)',
+       'maneuver': 'turn-right',
+       'polyline': {'points': 'sdtsB_}q{LJYj@kApAwCz@qB'},
+       'start_location': {'lat': 19.1138553, 'lng': 72.8419165},
+       'travel_mode': 'DRIVING'},
+      {'distance': {'text': '0.2 km', 'value': 161},
+       'duration': {'text': '1 min', 'value': 42},
+       'end_location': {'lat': 19.1140105, 'lng': 72.8445796},
+       'html_instructions': 'Turn <b>left</b> onto <b>W Lallubhai Park Rd</b>',
+       'maneuver': 'turn-left',
+       'polyline': {'points': 'm~ssBohr{LwAa@o@OSGUSY]CISm@'},
+       'start_location': {'lat': 19.1128709, 'lng': 72.8437636},
+       'travel_mode': 'DRIVING'},
+      {'distance': {'text': '0.3 km', 'value': 253},
+       'duration': {'text': '1 min', 'value': 60},
+       'end_location': {'lat': 19.1162238, 'lng': 72.845131},
+       'html_instructions': 'Turn <b>left</b> onto <b>Bharucha Road</b>',
+       'maneuver': 'turn-left',
+       'polyline': {'points': 'qetsBsmr{LaDe@oBWeAQUECAC?a@Ka@I'},
+       'start_location': {'lat': 19.1140105, 'lng': 72.8445796},
+       'travel_mode': 'DRIVING'},
+      {'distance': {'text': '0.3 km', 'value': 328},
+       'duration': {'text': '1 min', 'value': 79},
+       'end_location': {'lat': 19.118434, 'lng': 72.8461822},
+       'html_instructions': 'Turn <b>right</b> onto <b>Madhavdas Amarshi Rd</b><div style="font-size:0.9em">Destination will be on the right</div>',
+       'maneuver': 'turn-right',
+       'polyline': {'points': 'kstsBaqr{LF[Fc@@G?I@KAMEQEIIE?AQEKAWCuAMqBS[CqAIiAE'},
+       'start_location': {'lat': 19.1162238, 'lng': 72.845131},
+       'travel_mode': 'DRIVING'}],
+     'traffic_speed_entry': [],
+     'via_waypoint': []}],
+   'overview_polyline': {'points': 'o{rsBw}p{LnPAhIDt@a@\\[`AmChAmDj@sBoCBqDB_E?c@C_AOmDk@qGiAqFy@eNoCsEo@_Ca@eAMiAWcDo@c@IJY|BcFz@qBgCq@SGUS]g@Sm@aDe@uDi@]GcAUN_A@k@K[IG]GmBQmCW{CO'},
+   'summary': 'SV Rd',
+   'warnings': [],
+   'waypoint_order': []}],
+ 'status': 'OK'}
+
+#Sample Route Announcement 
+
+distance = r['routes'][0]['legs'][0]['distance']['text']
+time = r['routes'][0]['legs'][0]['duration']['text']
+time = ''.join(time.split(' '))
+end_dest = r['routes'][0]['legs'][0]['end_address']
+end_dest_announce = ''.join(end_dest.split(',')[0:3])
+mode = r['routes'][0]['legs'][0]['steps'][0]['travel_mode']
+route_1 = BeautifulSoup(r['routes'][0]['legs'][0]['steps'][0]['html_instructions']).get_text()
+route_1_dist = r['routes'][0]['legs'][0]['steps'][0]['distance']['text']
+route_2 = BeautifulSoup(r['routes'][0]['legs'][0]['steps'][1]['html_instructions']).get_text()
+announce = 'Your destination that is '+end_dest_announce+' is '+distance+ ' away and will take you'+time+' to reach there via mode of '+mode
+announce_route = route_1+' for '+route_1_dist+' then '+route_2
+speak(announce)
+speak(announce_route)
+
+
+
+print(announce, announce_route)
